@@ -126,3 +126,10 @@ Almost all features of an interface are available in type,
 the key distinction is that a type cannot be re-opened to add 
 new properties vs an interface which is always extendable.
  */
+
+// CONDITIONS
+// Syntax same as JS
+// If - else if - else OR If - else
+// Switch (condition) {cases}
+// ForEach, For In, While, Do While, etc. work as JS
+
