@@ -43,7 +43,7 @@ console.log("count: ".concat(myNumbersTwo.fr, ", ").concat(myNumbersTwo.sc, ", "
 var myStates;
 (function (myStates) {
     myStates["Finished"] = "F";
-    myStates["Ongoing"] = "o";
+    myStates["Ongoing"] = "O";
     myStates["Not Started"] = "N";
 })(myStates || (myStates = {}));
 console.log("statuses: ".concat(myStates["Not Started"], ", ").concat(myStates.Finished, ", ").concat(myStates.Ongoing, ", ..."));
@@ -58,3 +58,29 @@ var myMath;
 console.log("math: ".concat(myMath.suma));
 console.log("math: ".concat(myMath.resta));
 console.log("math: ".concat(myMath.multiplica));
+var employee = {
+    id: 1,
+    name: "Tom"
+};
+console.log("id: ", employee.id);
+console.log("name: ", employee.name);
+// Exactly the same as the earlier example
+function printCoord(pt) {
+    console.log("The coordinate's x value is " + pt.x);
+    console.log("The coordinate's y value is " + pt.y);
+}
+printCoord({ x: 100, y: 100 });
+/**
+Differences Between Type Aliases and Interfaces
+
+Type aliases and interfaces are very similar, and
+in many cases you can choose between them freely.
+Almost all features of an interface are available in type,
+the key distinction is that a type cannot be re-opened to add
+new properties vs an interface which is always extendable.
+ */
+// CONDITIONS
+// Syntax same as JS
+// If - else if - else OR If - else
+// Switch (condition) {cases}
+// ForEach, For In, While, Do While, etc. work as JS
